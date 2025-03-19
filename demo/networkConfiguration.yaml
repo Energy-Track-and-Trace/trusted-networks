@@ -1,0 +1,14 @@
+registries:
+  energy-origin:
+    url: https://demo.energytrackandtrace.dk/
+areas:
+  DK1:
+    issuerKeys:
+      - publicKey: LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUNvd0JRWURLMlZ3QXlFQVM1OG1JZlRNN2M3bDBjVzN2VkpyRU5wWDcwTU0vTU5FQmZHNy9ycDdERjA9Ci0tLS0tRU5EIFBVQkxJQyBLRVktLS0tLQo=
+  DK2:
+    issuerKeys:
+      - publicKey: LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUNvd0JRWURLMlZ3QXlFQUFkOEUzRXVEbG90dExOTllrbTBVZFdNUDYwTmR6VFRiYjVkanlwUEVkc009Ci0tLS0tRU5EIFBVQkxJQyBLRVktLS0tLQo=
+issuers:
+  Denmark:
+    stampUrl: http://po-stamp.eo.svc:5000/stamp-api
+daysBeforeCertificatesExpire: 60

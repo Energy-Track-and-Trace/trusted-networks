@@ -12,4 +12,4 @@ issuers:
   Denmark:
     stampUrl: http://po-stamp.eo.svc:5000/stamp-api
 daysBeforeCertificatesExpire: 60
-timeConstraint: Enclosed
+timeConstraint: Enclosing
